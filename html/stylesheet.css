@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url(https://scontent.fbkk5-6.fna.fbcdn.net/v/t1.15752-9/378106479_689881903053039_7283588598243919925_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=6-y6O-DJO9QAX_mjmCm&_nc_ht=scontent.fbkk5-6.fna&oh=03_AdQuxQjIelyjAREZfkrceqBGP5fdlp9jvMYAj4SsLx-sIA&oe=6530F3FB);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 130px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(128, 0, 128);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%; 
+}
+.text-box{
+    width: 50%;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50% -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid rgb(227, 11, 92);
+    background: rgb(227, 11, 92);
+    transition: 0.5s;
+}
+.aboutme{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.aboutme img{
+    position: relative;
+    align-items: center;
+}
+.ct{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.contact{
+    margin: 15% auto;
+    width: 80%;
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/377627662_843377277338219_6439638579930217110_n.jpg?stp=dst-jpg_p403x403&_nc_cat=107&ccb=1-7&_nc_sid=aee45a&_nc_ohc=R2j5yZipn1QAX8QYPNO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTB9e_Zff8y0NmJB5K4aqBvjp-uBN5bMSUEqU7aq-NWQw&oe=65328C4C);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
