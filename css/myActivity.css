@@ -9,7 +9,7 @@
 .header{
     min-height: 100vh;
     min-width: 100%;
-    background-image: url(/Users/chureeratsaisuwan/Desktop/imcs100/image/banner.png);
+    background-image: url(../image/banner.png);
     background-position: center;
     background-size: cover;
     position: relative;
